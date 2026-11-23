@@ -1,5 +1,0 @@
-@layer base, components, utilities;
-
-@import url("base.3c013064.css") layer(base);
-@import url("components.3c013064.css") layer(components);
-@import url("utilities.3c013064.css") layer(utilities);

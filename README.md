@@ -4,10 +4,10 @@ Frozen, prebuilt copies of the earlier versions of my portfolio, served side by 
 
 | Version | URL | Source | Commit | Stack |
 |---|---|---|---|---|
-| v1 | https://v1.peterszarvas.hu | portfolio-v1 | `ff61241` (2024-09-06) | Create React App, React Bootstrap |
-| v2 | https://v2.peterszarvas.hu | portfolio-v2 | `1f355a7` (2024-09-06) | Astro 2, Tailwind CSS |
-| v3 | https://v3.peterszarvas.hu | portfolio-v3 | `3bb5304` (2026-01-11) | Astro 5, Tailwind CSS, daisyUI |
-| v4 | https://v4.peterszarvas.hu | portfolio-v4 | `bd1a9f6` (2026-10-22) | Go, templ |
+| v1 | https://v1.peterszarvas.hu | portfolio-v1 | `e684ca5` (2026-11-23) | Create React App, React Bootstrap |
+| v2 | https://v2.peterszarvas.hu | portfolio-v2 | `126879a` (2026-11-23) | Astro 2, Tailwind CSS |
+| v3 | https://v3.peterszarvas.hu | portfolio-v3 | `d0d8108` (2026-11-23) | Astro 5, Tailwind CSS, daisyUI |
+| v4 | https://v4.peterszarvas.hu | portfolio-v4 | `22814ed` (2026-10-22) | Go, templ |
 
 The source repositories are archived, so these are the built files, not something rebuilt on deploy. v1 and v2 have no lockfiles and would drift if rebuilt.
 
