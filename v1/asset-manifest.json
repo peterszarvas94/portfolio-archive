@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5c4e78ea.css",
-    "main.js": "/static/js/main.37b74a85.js",
+    "main.js": "/static/js/main.ba796c3e.js",
     "static/js/453.4c42c5dd.chunk.js": "/static/js/453.4c42c5dd.chunk.js",
     "static/media/pantlika.png": "/static/media/pantlika.cf6b8f292cec6ef37a11.png",
     "static/media/hangos.png": "/static/media/hangos.1cd2c8965c692aab9347.png",
@@ -13,6 +13,6 @@
   },
   "entrypoints": [
     "static/css/main.5c4e78ea.css",
-    "static/js/main.37b74a85.js"
+    "static/js/main.ba796c3e.js"
   ]
 }

@@ -6,7 +6,7 @@
 
 # Coolify's Traefik terminates TLS and forwards the original Host header.
 :{$PORT:8080} {
-	header Cache-Control "public, max-age=3600"
+	header Cache-Control "no-cache"
 
 	@v1 host v1.peterszarvas.hu v1.localhost
 	handle @v1 {
