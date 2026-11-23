@@ -1,0 +1,40 @@
+{
+	admin off
+	persist_config off
+	auto_https off
+}
+
+# Coolify's Traefik terminates TLS and forwards the original Host header.
+:{$PORT:8080} {
+	header Cache-Control "public, max-age=3600"
+
+	@v1 host v1.peterszarvas.hu v1.localhost
+	handle @v1 {
+		root * /srv/v1
+		# v1 is a single-page React app with client-side routes.
+		try_files {path} /index.html
+		file_server
+	}
+
+	@v2 host v2.peterszarvas.hu v2.localhost
+	handle @v2 {
+		root * /srv/v2
+		file_server
+	}
+
+	@v3 host v3.peterszarvas.hu v3.localhost
+	handle @v3 {
+		root * /srv/v3
+		file_server
+	}
+
+	@v4 host v4.peterszarvas.hu v4.localhost
+	handle @v4 {
+		root * /srv/v4
+		file_server
+	}
+
+	handle {
+		redir https://peterszarvas.hu{uri} temporary
+	}
+}
